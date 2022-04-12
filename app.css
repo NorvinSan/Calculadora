@@ -1,0 +1,149 @@
+body {
+  width: 1600px;
+  height: 960px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(
+      55.68deg,
+      rgba(88, 190, 246, 0.5) -4.72%,
+      rgba(123, 196, 237, 0) 86.87%
+    ),
+    linear-gradient(0deg, rgba(150, 236, 255, 0.5), rgba(150, 236, 255, 0.5)),
+    #ffffff;
+}
+
+.contenedor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 844px;
+  left: 665px;
+  top: 50px;
+  background: linear-gradient(
+    167.95deg,
+    #fbfbfb 0%,
+    rgba(251, 251, 251, 0.2) 100%
+  );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 20px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(50px);
+  border-radius: 18px;
+}
+
+.barranav {
+  position: absolute;
+  width: 388px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+}
+
+.pantalla {
+  position: static;
+  margin-top: 60px;
+  height: 250px;
+}
+
+.coleccionbotones {
+  position: static;
+  display: block;
+
+  height: 70px;
+}
+
+.historial {
+  position: absolute;
+  text-align: right;
+  font-size: 37px;
+  width: 388px;
+  height: 85px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+#valorHistorial {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Salida {
+  position: absolute;
+  text-align: right;
+  margin-top: 30px;
+  
+  width: 388px;
+  height: 96px;
+}
+
+#valorSalida {
+  
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-weight: bold;
+  
+}
+
+.teclado {
+  position: relative;
+  height: 516px;
+  
+  margin-top: 15px;
+}
+
+.primercolumna {
+  position: absolute;
+  
+  width: 388px;
+  height: 300px;
+}
+
+.segundacolumna {
+  position: absolute;
+  margin-top: 300px;
+  
+  width: 388px;
+  height: 211px;
+}
+
+.Operador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 16px;
+
+  position: absolute;
+  width: 80px;
+  height: 76px;
+  left: calc(50% - 80px / 2 - 136px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #707070;
+
+  background: #f3f3f3;
+  box-shadow: 0px 1px 50px 10px rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+}
+.Numero{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 28px;
+
+position: absolute;
+width: 80px;
+height: 76px;
+left: calc(50% - 80px/2 - 137px);
+top: 100px;
+font-size: 36px;
+background: #F3F3F3;
+box-shadow: 0px 1px 50px 10px rgba(255, 255, 255, 0.25);
+border-radius: 16px;
+}
