@@ -25,15 +25,15 @@
                 </div>
 
                 <div class="historial" id="historial">
-                    <p style="font-size: 30px; margin-right: 5px;" id="valorHistorial"></p>
+                    <p style="font-size: 30px; margin-right: 5px;" id="valorHistorial">0</p>
                 </div>
 
                 <div class="Salida" id="Salida">
-                    <p style="font-size: 70px; margin-right: 5px; " id="valorSalida"></p>
+                    <p style="font-size: 70px; margin-right: 5px; " id="valorSalida">0</p>
                 </div>
             </div>
             
-            <div class="teclado">
+            <div class="teclado" id="tecla">
                 <!-- <button class="Operador" id="CE">CE</button>
                 <button class="Operador" id="C"><img src="Recursos/akar-icons_backspace.svg" alt=""></button>
                 <button class="Operador" id="*">*</button> -->
@@ -41,7 +41,7 @@
                
 
                 <div class="primercolumna">
-                    <button class="Operador" id="CE">CE</button>
+                    <!-- <button class="Operador" id="CE">CE</button>
                     <button style="margin-left: 90px;" class="Operador" id="C"><img src="Recursos/akar-icons_backspace.svg" alt=""></button>
                     <button style="margin-left: 180px;" class="Operador" id="/">/</button>
                     <button style="margin-left: 270px;" class="Operador" id="*">*</button>
@@ -52,24 +52,47 @@
                     <button style=" margin-top: 100px;" class="Numero" id="4">4</button>
                     <button style=" margin-top: 100px;margin-left: 90px;" class="Numero" id="5">5</button>
                     <button style=" margin-top: 100px;margin-left: 180px;" class="Numero" id="6">6</button>
-                    <button style="margin-left: 270px; margin-top: 200px;" class="Operador" id="+">+</button>
+                    <button style="margin-left: 270px; margin-top: 200px;" class="Operador" id="+">+</button> -->
+
+                    <button class="Numero" style="top:0px;" id="CE">CE</button>
+                    <button style="margin-left: 90px; top:0px;" class="Numero" id="C"><img src="Recursos/akar-icons_backspace.svg" alt=""></button>
+                    <button style="margin-left: 180px; top:0px;" class="Numero" id="/">/</button>
+                    <button style="margin-left: 270px; top:0px;" class="Numero" id="*">*</button>
+                    <button class="Numero" id="7">7</button>
+                    <button style="margin-left: 90px;" class="Numero" id="8">8</button>
+                    <button style="margin-left: 180px;" class="Numero" id="9">9</button>
+                    <button style="margin-left: 270px; margin-top: 0px;" class="Numero" id="-">-</button>
+                    <button style=" margin-top: 100px;" class="Numero" id="4">4</button>
+                    <button style=" margin-top: 100px;margin-left: 90px;" class="Numero" id="5">5</button>
+                    <button style=" margin-top: 100px;margin-left: 180px;" class="Numero" id="6">6</button>
+                    <button style="margin-left: 270px; margin-top: 100px;" class="Numero" id="+">+</button>
 
                 </div>
 
-                <div class="segundacolumna">
+                <!-- <div class="segundacolumna">
                 <button style="position: absolute; top: 0;" class="Numero" id="1">1</button>
                 <button style="position: absolute; top: 0; margin-left: 90px" class="Numero" id="2">2</button>
                 <button style="position: absolute; top: 0; margin-left: 180px" class="Numero" id="3">3</button>
                 <button style="margin-left: 270px; margin-top: 0px; height: 177px; background-color: #56CB95; color: white;" class="Operador" id="=">=</button>
                 <button style="position: absolute; top: 100; width: 171px;" class="Numero" id="0">0</button>
                 <button style= "position: absolute; margin-left: 180px; top: 100px;" class="Operador" id=".">.</button>
-                </div>
+                </div> -->
+
+                <div class="segundacolumna">
+                    <button style="position: absolute; top: 0;" class="Numero" id="1">1</button>
+                    <button style="position: absolute; top: 0; margin-left: 90px" class="Numero" id="2">2</button>
+                    <button style="position: absolute; top: 0; margin-left: 180px" class="Numero" id="3">3</button>
+                    <button style="margin-left: 270px; margin-top: 0px; height: 177px; background-color: #56CB95; color: white;" class="Operador" id="=">=</button>
+                    <button style="position: absolute; top: 100; width: 171px;" class="Numero" id="0">0</button>
+                    <button style= "position: absolute; margin-left: 180px; top: 100px;" class="Numero" id=".">.</button>
+                    </div>
                 
             </div>
 
         </div>
 
-        <script src="Calculos.js"></script>
+        <!-- <script src="Calculos.js"></script> -->
+        <script src="NCalculo.js"></script>
     </main>
 </body>
 </html>
